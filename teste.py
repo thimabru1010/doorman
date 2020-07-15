@@ -18,5 +18,5 @@ if __name__ == "__main__":
     # set up GPIO output channels
     GPIO.setup(relayPin, GPIO.OUT)
     GPIO.output(relayPin,GPIO.HIGH)
-
-    acende_apaga(relayPin)
+    time.sleep(5)
+    GPIO.output(relayPin,GPIO.LOW)
