@@ -10,7 +10,7 @@ def acende_apaga(relayPin):
     print("Welcome!")
 
 if __name__ == "__main__":
-     to use Raspberry Pi board pin numbers
+    #to use Raspberry Pi board pin numbers
     GPIO.setmode(GPIO.BOARD)
 
     relayPin = 37
