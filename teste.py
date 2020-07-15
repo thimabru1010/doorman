@@ -21,4 +21,4 @@ if __name__ == "__main__":
     time.sleep(5)
     GPIO.output(relayPin,GPIO.LOW)
     time.sleep(5)
-    GPIO.output(relayPin,GPIO.HGH)
+    GPIO.output(relayPin,GPIO.HIGH)
