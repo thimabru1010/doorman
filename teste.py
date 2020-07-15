@@ -13,7 +13,7 @@ if __name__ == "__main__":
     #to use Raspberry Pi board pin numbers
     GPIO.setmode(GPIO.BOARD)
 
-    relayPin = 11
+    relayPin = 37
 
     # set up GPIO output channels
     GPIO.setup(relayPin, GPIO.OUT)
