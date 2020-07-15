@@ -21,7 +21,7 @@ GPIO.setup(relayPin2, GPIO.OUT)
 GPIO.output(relayPin2,GPIO.HIGH)
 
 @app.route("/opendoor2")
-def abrePorta():
+def abrePorta2():
 
     GPIO.output(relayPin2,GPIO.LOW)
     time.sleep(5)
