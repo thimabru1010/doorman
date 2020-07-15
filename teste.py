@@ -17,8 +17,8 @@ if __name__ == "__main__":
 
     # set up GPIO output channels
     GPIO.setup(relayPin, GPIO.OUT, initial=GPIO.LOW)
-    GPIO.output(relayPin,1)
+    GPIO.output(relayPin,GPIO.HIGH)
     time.sleep(5)
-    GPIO.output(relayPin,0)
+    GPIO.output(relayPin,GPIO.LOW)
     time.sleep(5)
-    GPIO.output(relayPin,1)
+    GPIO.output(relayPin,GPIO.HGH)
