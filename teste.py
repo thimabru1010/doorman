@@ -16,7 +16,7 @@ if __name__ == "__main__":
     relayPin = 37
 
     # set up GPIO output channels
-    GPIO.setup(relayPin, GPIO.OUT)
+    GPIO.setup(relayPin, GPIO.OUT, initial=GPIO.LOW)
     GPIO.output(relayPin,1)
     time.sleep(5)
     GPIO.output(relayPin,0)
